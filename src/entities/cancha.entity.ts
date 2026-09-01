@@ -1,7 +1,3 @@
-src/entities/cancha.entity.ts
-
-
-
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 import { Horario } from './horario.entity';
 import { Reserva } from './reserva.entity';

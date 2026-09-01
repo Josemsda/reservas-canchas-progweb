@@ -1,7 +1,3 @@
-src/entities/horario.entity.ts
-
-
-
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from 'typeorm';
 import { Cancha } from './cancha.entity';
 import { Reserva } from './reserva.entity';
